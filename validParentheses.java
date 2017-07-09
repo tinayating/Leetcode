@@ -1,4 +1,4 @@
-//来自网友 runtime:2ms
+//来自网友 runtime:10ms
 public class Solution {
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<Character>();
