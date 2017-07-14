@@ -13,8 +13,8 @@ public class Solution {
     public int maxSubArray(int[] nums) {
         int maxEndHere = nums[0];
         int maxSoFar = nums[0];
-        for(int num:nums){
-            maxEndHere = Math.max(maxEndHere+num,num);
+        for(int i = 1;i<nums.length;i++){ //注意i是从1开始
+            maxEndHere = Math.max(maxEndHere+nums[i],nums[i]);
             maxSoFar = Math.max(maxEndHere,maxSoFar);
         }
         return maxSoFar;
