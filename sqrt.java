@@ -1,4 +1,4 @@
-//网友算法
+//网友算法，在CC上看到类似的算法
 public class Solution {
     public int mySqrt(int x) {
         if (x == 0)
