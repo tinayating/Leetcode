@@ -19,3 +19,6 @@ class Solution:
             return max(v)
         else:
             return v[2]
+
+   
+# For java, use size = k MinHeap to store the top k number. The kth largest will be on the top.
