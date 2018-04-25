@@ -13,6 +13,6 @@ class Solution:
             else:
                 out += roman[s[i]]
         
-        out += roman[s[len(s)-1]]
+        out += roman[s[len(s)-1]]   # don't forget the last one
         
         return out
