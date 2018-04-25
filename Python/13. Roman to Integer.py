@@ -16,3 +16,6 @@ class Solution:
         out += roman[s[len(s)-1]]   # don't forget the last one
         
         return out
+
+    
+    # Summary: hashmap
