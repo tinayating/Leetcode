@@ -25,7 +25,6 @@ class Solution(object):
                 up = helper(grid,i,j+1)
                 down = helper(grid,i,j-1)
                 curMax += left + right + up + down 
-                # totalMax = max(curMax, totalMax)
             return curMax
                 
         for row in range(n):
@@ -35,3 +34,5 @@ class Solution(object):
                     totalMax = out
                 
         return totalMax
+
+    # trick: make 1 to 0 if the point has already been searched
