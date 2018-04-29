@@ -12,3 +12,5 @@ class Solution:
             maxSum = max(maxSum, curSum)
         
         return maxSum
+
+    # Use to variable 'curSum' and 'maxSum'
